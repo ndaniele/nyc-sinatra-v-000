@@ -12,7 +12,7 @@
   <h3>Choose an existing title:</h3>
 
   <%Title.all.each do |title|%>
-    <input type="checkbox" name="figure[title_ids][]" value="<%=title.id%>" id=title_"<%=title.id%>"><%=title.name%></input>
+    <input type="checkbox" name="figure[title_ids][]" value="<%=title.id%>" id="title_<%=title.id%>"><%=title.name%></input>
 <%end%>
 <br></br>
 
